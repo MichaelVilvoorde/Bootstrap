@@ -1,0 +1,25 @@
+.navbar {
+  box-shadow: 2px 2px 5px #3292a6; }
+
+.bg_img {
+  position: absolute;
+  z-index: -5;
+  width: auto;
+  height: auto;
+  top: 80px;
+  background: url("../img/mountains.jpg");
+  background: rgba(50, 146, 166, 0.8);
+  opacity: 0.7; }
+
+h1 {
+  font-size: 400%; }
+
+.margin_top {
+  margin-top: 80px; }
+
+.spacebetween {
+  margin-right: 10px; }
+
+@media (max-width: 991px) {
+  .mb-responsive {
+    margin-bottom: 1rem; } }

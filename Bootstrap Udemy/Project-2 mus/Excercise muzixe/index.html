@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Bootstrap Theme</title>
+</head>
+
+<body>
+    <!-- START HERE -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#home">
+            <img src="img/mlogo.png" alt="logo" width="50px" height="50px">
+            <h3 class="d-inline align-middle">Mizuxe</h3>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#meet">Meet the authors</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- HOME -->
+
+
+    <img class="bg_img" src="img/mountains.jpg" alt="">
+    <section id="home">
+
+        <div class="container margin_top">
+            <div class="row">
+                <div class="col-md-6 py-4 text-center ml-auto">
+                    <h1>Do what you dream of...</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, molestiae?</p>
+                    <div class="btn btn-outline-primary"><i class="fas fa-arrow-right pr-2"></i>Read More</div>
+                </div>
+                <div class="col-md-6">
+                    <img src="img/book.png" class="img-fluid" alt="Responsive image">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- News letter -->
+    <section id="news">
+        <div class="bg-dark p-4 mt-5">
+            <form>
+                <div class="row mt-3">
+                    <div class="col-md-5">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Enter Name">
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Enter Email">
+                        </div>
+                    </div>
+                    <div class="col-md-2 text-center">
+                        <div class="btn-lg btn-primary">Subscribe</div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- Be Something -->
+    <section id="be" class=" bg-light">
+        <div class="container-fluid px-5">
+            <div class="row">
+                <div class="col-lg-3 text-center">
+                    <div class="card bg-light text-secondary rounded border-primary py-5 px-4 my-5 mb-responsive">
+                        <h3 class="text-primary">Be Better</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, adipisci.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 text-center">
+                    <div class="card py-5 px-4 bg-primary text-light rounded my-5  mb-responsive">
+                        <h3>Be Smarter</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, adipisci.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 text-center">
+                    <div class="card  py-5 px-4 bg-light text-secondary rounded border-primary my-5 mb-responsive">
+                        <h3 class="text-primary">Be Faster</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, adipisci.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 text-center">
+                    <div class="card  py-5 px-4 bg-primary text-light rounded my-5  mb-responsive">
+                        <h3>Be Stronger</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, adipisci.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+    <script>
+        // Get the current year for the copyright
+        $('#year').text(new Date().getFullYear());
+    </script>
+</body>
+
+</html>

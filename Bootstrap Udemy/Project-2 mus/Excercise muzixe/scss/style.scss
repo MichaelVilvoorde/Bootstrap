@@ -1,0 +1,37 @@
+$primary: #3292a6;
+$primary-overlay: rgba(50, 146, 166, 0.8);
+.navbar {
+    box-shadow: 2px 2px 5px $primary;
+}
+
+.bg_img {
+    position: absolute;
+    z-index: -5;
+    width: auto;
+    height: auto;
+    top: 80px;
+    //Werkt niet ⬇
+    background: url('../img/mountains.jpg');
+    background: $primary-overlay;
+    //kapot
+    opacity: 0.7;
+}
+
+h1 {
+    font-size: 400%;
+}
+
+.margin_top {
+    margin-top: 80px;
+}
+
+.spacebetween {
+    margin-right: 10px;
+}
+
+@media (max-width: 991px) {
+    //werk niet ..........
+    .mb-responsive {
+        margin-bottom: 1rem;
+    }
+}
