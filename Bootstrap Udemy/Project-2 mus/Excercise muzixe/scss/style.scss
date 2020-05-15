@@ -46,6 +46,13 @@ h1 {
     img {
         margin-top: -60px;
     }
+    .card:hover {
+        background: $primary;
+        color: white;
+    }
+    .fab {
+        color: white;
+    }
 }
 
 .center-block {

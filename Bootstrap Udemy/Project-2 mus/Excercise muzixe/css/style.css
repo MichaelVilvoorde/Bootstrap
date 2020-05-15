@@ -30,6 +30,11 @@ h1 {
 
 #meet img {
   margin-top: -60px; }
+#meet .card:hover {
+  background: #3292a6;
+  color: white; }
+#meet .fab {
+  color: white; }
 
 .center-block {
   display: block;
